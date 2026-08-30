@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Environment / secrets - NEVER commit
+.env
+.env.local
+*.pem
+*.key
+
+# Local project output (generated reports, ABIs, deployment data).
+# Regenerated at runtime - do not commit local Ganache addresses.
+outputs/*
+!outputs/.gitkeep
+
+# Local blockchain artifacts
+build/
+artifacts/
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

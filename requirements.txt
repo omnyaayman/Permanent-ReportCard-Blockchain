@@ -1,0 +1,8 @@
+# Core blockchain interaction
+web3>=7.0,<8
+# Solidity compiler management
+py-solc-x>=2.0
+# GUI application
+streamlit>=1.30
+# Environment variable loading (.env)
+python-dotenv>=1.0
